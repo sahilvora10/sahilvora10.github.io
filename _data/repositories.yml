@@ -1,12 +1,5 @@
-github_users:
-  - torvalds
-  - alshedivat
-
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - sahilvora10/Survey-for-Web-Scrapers
+  - sahilvora10/Covid-19-VaccineAnalysis
+  - sahilvora10/IPL_Data_Extraction
+  - sahilvora10/WordleAnalyticsDashboard
