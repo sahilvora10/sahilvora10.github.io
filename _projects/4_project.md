@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: IPL Datasets
 description: another without an image
 img:
 importance: 3
-category: fun
+category: kaggle datasets
 ---
 
 Every project has a beautiful feature showcase page.

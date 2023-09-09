@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Survey for Web Scraping Tools
-description: a project that redirects to another website
-img: assets/img/ui_us_news.png
-redirect: https://unsplash.com
-importance: 3
-category: academics
+title: Employee Task Management Platform
+description: 
+img:
+importance: 1
+category: other
 ---
 
 Every project has a beautiful feature showcase page.
