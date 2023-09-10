@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Survey for Web Scraping Tools
-description: a project that redirects to another website
+description:
 img: assets/img/ui_us_news.png
 redirect: https://unsplash.com
+github: https://github.com/sahilvora10/Survey-for-Web-Scrapers
+arrow_icon: true
 importance: 3
 category: academics
 ---

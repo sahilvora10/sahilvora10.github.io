@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Echo Chamber detection in Social Media
-description: a project with a background image
+description:
 img: assets/img/largest.png
 importance: 1
 category: academics
+arrow_icon: true
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 

@@ -2,8 +2,10 @@
 layout: page
 title: IPL Datasets
 description: another without an image
-img:
+img: assets/img/ipl.png
 importance: 3
+arrow_icon: true
+kaggle: https://www.kaggle.com/datasets/vora1011/ipl-2008-to-2021-all-match-dataset
 category: kaggle datasets
 ---
 

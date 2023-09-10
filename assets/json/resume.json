@@ -1,6 +1,6 @@
 {
   "basics": {},
-  "research":[
+  "research experience":[
     {
       "name": "Visual Representation and Processing Group, SCAI, ASU",
       "position": "Research Assistant",
@@ -8,7 +8,7 @@
       "startDate": "2023-06-20",
       "endDate": "2023-08-11",
       "image": "assets/img/asu-vertical.png",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+      "summary": "Researching Medical Imaging using modern computer vision and deep learning techniques. Focused on MRI image denoising through innovative methods like diffusion and vision transformer models."
     },
     {
       "name": "IIST - Indian Space Research Organisation, India",
@@ -17,10 +17,10 @@
       "startDate": "2021-10-20",
       "endDate": "2022-07-20",
       "image": "assets/img/iist.png",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+      "summary": "Researched on improving hologram generation with deep learning techniques for versatile space exploration and land-rover missions, eliminating the need for lasers and physical equipment."
     }
   ],
-  "work": [
+  "work experience": [
     {
       "name": "Barclays, Whippany",
       "position": "Summer Developer Analyst",
@@ -28,7 +28,7 @@
       "startDate": "2023-06-20",
       "endDate": "2023-08-11",
       "image": "assets/img/Barclays-Logo.png",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+      "summary": "Developed and deployed NLP chatbots to improve JIRA error reporting. Designed a queue-based system library and implemented MS Teams notifications with Apache Kafka, optimizing connectivity and collaboration"
     },
     {
       "name": "Sabre, India",
@@ -37,7 +37,7 @@
       "startDate": "2021-10-20",
       "endDate": "2022-07-20",
       "image": "assets/img/sabre-logo-red.svg",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+      "summary": "Worked  on migration of various data management platforms to Google Cloud. Improved APIs, designed efficient cloud architecture, and developed automated pipelines for optimized data management and seamless integration with legacy systems"
     },
     {
       "name": "Publicis Sapient, India",
@@ -46,56 +46,110 @@
       "startDate": "2020-01-20",
       "endDate": "2021-10-20",
       "image": "assets/img/ps.svg",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+      "summary": "Key contributor to GameStop's digital transformation, maintaining zero downtime during peak sales. As a full stack web developer, deployed new features built using Saleforce Cloud Commerce and Spring microservices and optimized website functionality using Google Analytics insights."
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "Arizona State University",
+      "school": "Ira A. Fulton Schools of Engineering",
+      "location":"Tempe, Arizona, USA",
       "url": "https://www.asu.edu/",
-      "area": "Computer Science",
-      "studyType": "Masters in Science",
+      "area": "Computer Science (Thesis)",
+      "studyType": "Masters of Science",
       "startDate": "2022-08-17",
       "endDate": "2024-05-10",
-      "score": "",
-      "image": "assets/img/asu.png",
+      "score": "GPA: 4.0/4.0",
+      "image": "assets/img/asu-vertical.png",
+      "specializtion": "Artifical Intelligence",
       "courses": []
     },
     {
       "institution": "Manipal Institute of Technology",
+      "school": "Manipal Institute of Technology",
+      "location" : "Manipal, Karnataka, India",
       "url": "https://manipal.edu/mit.html",
-      "area": "Computer Science",
-      "studyType": "B.Tech",
+      "area": "Computer and Communication Engineering",
+      "studyType": "Bachelor of Technology",
       "startDate": "2016-08-16",
-      "endDate": "2022-05-10",
+      "endDate": "2020-05-10",
       "image": "assets/img/MAHE.svg",
-      "score": "",
+      "score": "GPA: 8.69 / 10.0",
+      "specializtion": "Big Data",
       "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
+      "title": "Best Paper Award",
+      "date": "2023-08-20",
+      "platform": "at 1st International Workshop on Generalizing from Limited Resources in the Open World (GLOW)",
+      "awarder": "International Joint Conferences on Artificial Intelligence (IJCAI 2023)",
+      "summary": "For the paper Instance Adaptive Prototypical Contrastive Embedding for Generalized Zero Shot Learning",
+      "url": "https://sites.google.com/view/glow-ijcai-23/home"
     },
     {
-      "language": "English",
-      "fluency": "Fluent"
+      "title": "Winner",
+      "date": "2023-08-20",
+      "platform": "of Flipkart GRiD - Teach the Machines Challenge",
+      "awarder": "Flipkart",
+      "summary": "Bagged the first position in Flipkart's Flagship Engineering Campus Challenge under the Machine Learning Quiz Category ",
+      "url": "https://d8it4huxumps7.cloudfront.net/certificates/clients/flipkartgrid/dm9yYS5zYWhpbDAxQGdtYWlsLmNvbQ==.jpg"
+    }
+
+  ],
+  "certificates": [
+    {
+      "name": "Salesforce Certified B2C Commerce Developer",
+      "issuer" :"Saleforce",
+      "date": "2022-12-10",
+      "url": "https://www.salesforce.com/trailblazer/sahvora"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuer" :"DeepLearning.AI through Coursera",
+      "date": "2018-10-21",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/RKDH9A4JTTMH"
+    },
+    {
+      "name": "Machine Learning",
+      "issuer" :"Standford University through Coursera",
+      "date": "2018-07-07",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9FNU4Z86YXNN"
+    },
+    {
+      "name": "Introduction to Data Science in Python",
+      "issuer" :"University of Michigan through Coursera",
+      "date": "2018-07-07",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8X5GZ2GJAVHY"
     }
   ],
-  "interests": [],
+  "volunteer": [{
+    "position":"President",
+    "organization": "The Photography Club, Manipal",
+    "startDate":"2018-08-10",
+    "url": "https://www.instagram.com/photographyclubmanipal/?hl=en"
+  },
+  {
+    "position": "Active Volunteer",
+    "organization":"Indian Red Cross Society Blood Bank Bokaro",
+    "startDate":"2016-06-06",
+    "url": ""
+  }
+],
+  "publications": [],
+  "skills": [
+  ],
+  "languages": [
+  ],
+  "interests": [
+    {"name":"Computer Vision"},
+    {"name":"Data Mining and Analystics"},
+    {"name":"Machine Learning and Operations"},
+    {"name":"Software Development"},
+    {"name":"Cloud Architecture and Designing"},
+    {"name":"Photography"}
+  ],
   "references": [],
   "projects": []
 }

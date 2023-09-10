@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Wordle Tweets
-description: a project with no image
-img:
+description:
+img: assets/img/wordle1.png
+github: https://github.com/sahilvora10/WordleAnalyticsDashboard
 importance: 4
+arrow_icon: true
 category: kaggle datasets
 ---
 

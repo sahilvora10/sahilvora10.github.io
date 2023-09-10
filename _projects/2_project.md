@@ -1,10 +1,12 @@
 ---
 layout: page
 title: COVID-19 Vaccine Stance Detection
-description: a project with a background image and giscus comments
+description:
 img: assets/img/proj2.png
+github: https://github.com/sahilvora10/Covid-19-VaccineAnalysis
 importance: 2
 category: academics
+arrow_icon: true
 giscus_comments: true
 ---
 

@@ -7,9 +7,13 @@
         {% include figure.html path=content.image title="example image" class="img-fluid mx-auto d-block" %}
       </div>
       <div class="col-md-8">
-        <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="{{ content.url }}">{{content.studyType}}</a></h6>
+        <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="{{ content.url }}">{{content.studyType}} in {{content.area}}</a></h6>
+        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-weight: bold;">{{content.startDate | date: '%Y'}} - {{content.endDate | date: '%Y'}}</h6>
         <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
-        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{content.area}}</h6>
+        <!-- <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.location}}</h6> -->
+        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.score}}</h6>
+        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Specializtion - {{content.specializtion}}</h6>
+        <!-- <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">{{content.startDate | date: '%Y'}} - {{content.endDate | date: '%Y'}}</h6> -->
         <ul class="items">
           {% for item in content.courses %}
           <li>

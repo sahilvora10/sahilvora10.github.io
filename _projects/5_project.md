@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Zomato Restaurants Dataset
-description: a project with a background image
-img: assets/img/1.jpg
+description:
+img: assets/img/zomato.png
 importance: 3
 category: kaggle datasets
+kaggle: https://www.kaggle.com/datasets/vora1011/zomato-bangalore-restaurants-2022
+arrow_icon: true
 ---
 
 Every project has a beautiful feature showcase page.
