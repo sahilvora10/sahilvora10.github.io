@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Masters' ASU | Computer Vision Research Assistant
+subtitle: MS CS ASU | Computer Vision Research Assistant
 
 profile:
   align: right
@@ -16,10 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi,
-Welcome to my website!
-I am a Computer Science graduate student and a Computer Vision enthusiast. I am currently pursing my Masters in Computer Science from Arizona State University and pursuing reseach at Visual Representation and Processing Group directed by Dr. Baoxin Li. 
+Hello and welcome to my corner of the digital world! I'm a Computer Science graduate student on an exciting journey in the realm of Computer Vision. Currently, I'm pursuing my Masters in Computer Science at [Arizona State University](https://www.asu.edu/), where I'm immersed in research at the [Visual Representation and Processing Group](https://www.public.asu.edu/~bli24/Research.html), led by [Dr. Baoxin Li](https://search.asu.edu/profile/747601).
 
-I have a strong passion in the field of Computer Vision and Machine Learning. I have also worked as a Software Enginner at various firms and to know more about my previous experience and work Click here.
+My passion lies in the fascinating fields of Computer Vision and Machine Learning. Before diving into research, I've had the privilege of working as a Software Engineer with diverse teams and projects.
 
-This website would help me put together my work in various domains as well as a location to put down my thoughts.
+This website is my canvas, where I showcase my projects, share my insights, and document my explorations in the world of tech. Whether you're interested in my latest [projects](/projects/) or want to know more [about me](/cv/), feel free to dive in.  
+
+For anyone interested in getting in touch, you can reach me at [svora7@asu.edu](mailto:svora7@asu.edu). Thanks for stopping by!

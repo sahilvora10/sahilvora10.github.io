@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Promoted to President at The Photogrpahy Club, Manipal
+title:  Promoted to the position of President at The Photography Club, Manipal.
 date:   2018-08-15 16:40:16
 description: march & april, looking forward to summer
 tags: formatting links

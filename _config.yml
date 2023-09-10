@@ -6,7 +6,7 @@ title: Sahil Vora # the website title (if blank, full name will be used instead)
 first_name: Sahil
 middle_name: 
 last_name: Vora
-email: sahilvora2021@gmail.com
+email: svora7@asu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -79,7 +79,7 @@ scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
+medium_username: vorasahil01 # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -98,14 +98,14 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
+instagram_id: sahilvora_photography # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Find me across the digital galaxy! Connect with me on the platforms above!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
