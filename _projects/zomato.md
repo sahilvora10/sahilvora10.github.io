@@ -3,7 +3,7 @@ layout: page
 title: Zomato Restaurants Data Collection
 description: Comprehensive dataset of restaurants available on Zomato in various cities for in-depth culinary analysis.
 img: assets/img/zomato.png
-importance: 2
+importance: 3
 category: kaggle datasets
 kaggle: https://www.kaggle.com/datasets/vora1011/zomato-bangalore-restaurants-2022
 arrow_icon: true

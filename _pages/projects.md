@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: 
+description: This page offers a glimpse into my various projects, covering academic, professional, and personal initiatives. It showcases my hands-on learning experiences, creative problem-solving, and my journey in the ever-changing tech world. These projects encompass a wide range of challenges I've taken on, from academic research to practical industry applications. They reflect my commitment to learning, exploring, and expanding my skills in areas like Computer Vision, Machine Learning, and Software Development.
 nav: true
 nav_order: 2
 display_categories: [academics, kaggle datasets, other]

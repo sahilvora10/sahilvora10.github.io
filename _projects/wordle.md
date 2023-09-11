@@ -4,7 +4,7 @@ title: Wordle Analytics - Decoding the Daily Challenge
 description: A wordle analytics dashboard and the process of creating an end-to-end data analytics project at zero cost.
 img: assets/img/wordle1.png
 github: https://github.com/sahilvora10/WordleAnalyticsDashboard
-importance: 4
+importance: 1
 arrow_icon: true
 category: kaggle datasets
 ---

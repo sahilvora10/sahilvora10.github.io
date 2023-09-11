@@ -4,7 +4,7 @@ title: Employee Task Management Platform
 description: 
 img:
 importance: 1
-category: other
+category: other2
 ---
 
 Every project has a beautiful feature showcase page.

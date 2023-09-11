@@ -3,7 +3,7 @@ layout: page
 title: Indian Premiere League Data Collection
 description: Curated collection of datasets on the IPL for in-depth analysis of one of cricket's most popular tournaments.
 img: assets/img/ipl.png
-importance: 1
+importance: 2
 arrow_icon: true
 kaggle: https://www.kaggle.com/datasets/vora1011/ipl-2008-to-2021-all-match-dataset
 category: kaggle datasets
