@@ -92,7 +92,7 @@ Many of us have watched the movie Moneyball. The film summarizes that with prope
 
 <p></p>
 
-<i>The code for this project is available at <a href="https://github.com/sahilvora10/IPL_Data_Extraction">sahilvora10/IPL_Data_Extraction</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:svora7@asu.edu">svora7@asu.edu</a></i>
+<i>The code for this project is available at <a href="https://github.com/sahilvora10/IPL_Data_Extraction">sahilvora10/IPL_Data_Extraction</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2021@gmail.com">sahilvora2021@gmail.com</a></i>
 
 <p><strong><a href="https://www.kaggle.com/datasets/vora1011/ipl-2008-to-2021-all-match-dataset" target="_blank">
             IPL 2008 to 2022 All Match Dataset

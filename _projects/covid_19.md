@@ -20,7 +20,7 @@ giscus_comments: true
 In the ever-evolving landscape of social media, every issue, even a pandemic and its vaccine, has its champions and critics. This project delves deep into the nuances of public sentiment surrounding the COVID-19 vaccine. By analyzing tweets from both Pro-Vaccine and Anti-Vaccine campaigns, we uncover intriguing insights about cluster formations, campaign connectivity, and the epicenters of these discussions.
 
 
-<i>The code for this project is available at <a href="https://github.com/sahilvora10/Covid-19-VaccineAnalysis">sahilvora10/Covid-19-VaccineAnalysis</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:svora7@asu.edu">svora7@asu.edu</a></i>
+<i>The code for this project is available at <a href="https://github.com/sahilvora10/Covid-19-VaccineAnalysis">sahilvora10/Covid-19-VaccineAnalysis</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2021@gmail.com">sahilvora2021@gmail.com</a></i>
 
 <p><strong>Project Objective</strong></p>
 Gather and analyze Twitter data focused on the COVID-19 Vaccine to gain valuable insights and conduct in-depth exploratory analysis.

@@ -22,4 +22,4 @@ My passion lies in the fascinating fields of Computer Vision and Machine Learnin
 
 This website is my canvas, where I showcase my projects, share my insights, and document my explorations in the world of tech. Whether you're interested in my latest [projects](/projects/) or want to know more [about me](/cv/), feel free to dive in.  
 
-For anyone interested in getting in touch, you can reach me at [svora7@asu.edu](mailto:svora7@asu.edu). Thanks for stopping by!
+For anyone interested in getting in touch, you can reach me at [sahilvora2021@gmail.com](mailto:sahilvora2021@gmail.com). Thanks for stopping by!
