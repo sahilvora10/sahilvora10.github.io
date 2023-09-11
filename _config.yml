@@ -111,7 +111,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-DLQ644XC9K # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -138,7 +138,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: sahilvora10/sahilvora10.github.io     # <your-github-user-name>/<your-github-repo-name>
+  repo:     # <your-github-user-name>/<your-github-repo-name>
   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
   category: Comments             # name of the category under which discussions will be created
   category_id: DIC_kwDOA5PmLc4CTBt6
@@ -352,7 +352,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification

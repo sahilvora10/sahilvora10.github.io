@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Echo Chamber detection in Social Media
-description: This project explores social media echo chambers, their impact on information consumption, and methods for detecting political echo chambers on Twitter.
+description: Unraveling the World of Social Media Echo Chambers, Their Influence on Information Consumption, and Advanced Detection Techniques on Twitter.
 img: assets/img/largest.png
 importance: 1
 category: academics
@@ -61,4 +61,4 @@ This project was created to investigate the concept of echo chambers on Twitter,
     Results and Evaluations using important Media and Political Users
 </div>
 
-<i>As this project involves sensitive data and is currently not open-sourced, we are unable to provide direct access to the code. If you have any questions or would like to learn more about the project and its details, please don't hesitate to reach out to us at <a href="mailto:svora7@asu.edu">svora7@asu.edu</a>.</i>
+<i>As this project involves sensitive data and is currently not open-sourced, we are unable to provide direct access to the code. If you have any questions or would like to learn more about the project and its details, please feel free to contact me at <a href="mailto:svora7@asu.edu">svora7@asu.edu</a>.</i>
