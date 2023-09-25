@@ -7,6 +7,9 @@ layout: default
           <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <p class="post-description">{{ page.description }}</p>
+            {%- if page.google_scholar_pub -%}
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" style="font-size: 16px;">My Google Scholar Page.</a>
+            {%- endif -%}
           </header>
 
           <article>

@@ -26,7 +26,7 @@ computer vision and the field of optics},
   journal={International Research Journal of Engineering and Technology},
   volume={08},
   issue={03},
-  pages={577--580},
+  pages={577-580},
   numpages={4},
   year={2021},
   month={March},
@@ -38,14 +38,18 @@ computer vision and the field of optics},
   preview={irjet.png}
 }
 
-@inproceedings{smith:2016:eclws,
-  abbr={GLOW},
-  author    = {Paul, R. and Vora, S. and Li, B.},
-  title     = {{Instance Adaptive Prototypical Contrastive Embedding for Generalized Zero Shot Learning}},
-  year      = {2023},
-  month =  {August},
-  maintitle = { International Joint Conference on Artificial Intelligence (IJCAI)},
-  booktitle = {GLOW: Proceesings of the 1st international workshop on Generalizing from Limited Resources in the Open World at IJCAI'23 },
-  location = {Macao, China},
-  html = {https://sites.google.com/view/glow-ijcai-23/home}
+
+@misc{paul2023instance,
+      abbr={GLOW},
+      title={Instance Adaptive Prototypical Contrastive Embedding for Generalized Zero Shot Learning}, 
+      author={Riti Paul and Sahil Vora and Baoxin Li},
+      year={2023},
+      eprint={2309.06987},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      arxiv = {2309.06987},
+      html = {https://sites.google.com/view/glow-ijcai-23/home},
+      abstract = {Generalized zero-shot learning(GZSL) aims to classify samples from seen and unseen labels, assuming unseen labels are not accessible during training. Recent advancements in GZSL have been expedited by incorporating contrastive-learning-based (instance-based) embedding in generative networks and leveraging the semantic relationship between data points. However, existing embedding architectures suffer from two limitations: (1) limited discriminability of synthetic features' embedding without considering fine-grained cluster structures; (2) inflexible optimization due to restricted scaling mechanisms on existing contrastive embedding networks, leading to overlapped representations in the embedding space. To enhance the quality of representations in the embedding space, as mentioned in (1), we propose a margin-based prototypical contrastive learning embedding network that reaps the benefits of prototype-data (cluster quality enhancement) and implicit data-data (fine-grained representations) interaction while providing substantial cluster supervision to the embedding network and the generator. To tackle (2), we propose an instance adaptive contrastive loss that leads to generalized representations for unseen labels with increased inter-class margin. Through comprehensive experimental evaluation, we show that our method can outperform the current state-of-the-art on three benchmark datasets. Our approach also consistently achieves the best unseen performance in the GZSL setting.},
+      bibtex_show={true},
+      note = {Accepted in IJCAI 2023 Workshop on Generalizing from Limited Resources in the Open World}
 }
