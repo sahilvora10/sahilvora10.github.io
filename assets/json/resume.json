@@ -2,13 +2,13 @@
   "basics": {},
   "research experience":[
     {
-      "name": "Visual Representation and Processing Group, SCAI, ASU",
+      "name": "Arizona State University w/ Mayo Clinic",
       "position": "Research Assistant",
       "url": "https://example.com",
       "startDate": "2023-06-20",
-      "endDate": "2023-08-11",
+      "endDate": "2024-05-06",
       "image": "assets/img/asu-vertical.png",
-      "summary": "Researching Medical Imaging using modern computer vision and deep learning techniques. Focused on MRI image denoising through innovative methods like diffusion and vision transformer models."
+      "summary": "Researched Medical Imaging using modern computer vision and deep learning techniques. Focused on MRI image denoising through innovative methods like diffusion and vision transformer models."
     },
     {
       "name": "IIST - Indian Space Research Organisation, India",
@@ -21,6 +21,15 @@
     }
   ],
   "work experience": [
+    {
+      "name": "Barclays, Whippany",
+      "position": "Technology Developer - BA4",
+      "url": "https://example.com",
+      "startDate": "2024-07-29",
+      "endDate": "Present",
+      "image": "assets/img/Barclays-Logo.png",
+      "summary": "Implementing dynamic configuration management for a Kafka-based data streaming platform, improving CI/CD pipelines using GitLab and Chef, and working on integrating GenAI solutions for Enterprise Data Platforms."
+    },
     {
       "name": "Barclays, Whippany",
       "position": "Summer Developer Analyst",
