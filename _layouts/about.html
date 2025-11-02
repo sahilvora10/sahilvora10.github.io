@@ -36,7 +36,7 @@ layout: default
             {%- endif %}
 
             {% if page.cv_pdf %}
-              <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right">
+              <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float" style="display: block; text-align: center; margin-top: 20px;">
                 <i class="fas fa-file-pdf"></i> CV
               </a>
             {% endif %}
