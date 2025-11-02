@@ -7,7 +7,7 @@ subtitle: Software Developer @ AWS | MSc CS ASU | Computer Vision Research Assis
 profile:
   align: right
   image: sv_2025.jpg
-  image_circular: fase # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
 
 news: false  # includes a list of news items
