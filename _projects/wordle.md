@@ -40,7 +40,7 @@ Embark on a journey through data and analytics with me, where I explore the fasc
   <li><i class="fas fa-chart-line"></i> <a href="https://sahilvora10.github.io/WordleProject/">Live Dashboard.</a></li>
 </ul>
 
-<i>If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2021@gmail.com">sahilvora2021@gmail.com</a></i>
+<i>If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2024@gmail.com">sahilvora2024@gmail.com</a></i>
 
 <p><strong>So, what's Wordle?</strong></p> It's a daily word game that challenges players to guess a five-letter word within six attempts. Each guess is met with colored tiles offering feedback on letter matches and their correct positions. What sets Wordle apart is its accessibility; it's not an app, requires no logins, and can be played just once a day. After each game, players can share their color-coded tile grids, withholding the day's answer. You can stil play it <a href = "https://www.nytimes.com/games/wordle/index.html">here</a>
 

@@ -25,7 +25,7 @@ category: academics
 <p></p>
 In today's data-driven landscape, web scraping is essential for extracting valuable insights from online sources. This project was created as part of an exploration survey to evaluate various web scraping tools and their performance with different types of data. This process, involving software tools to gather data from websites, empowers organizations, researchers, and individuals for purposes like market research and content aggregation. The rising popularity of tools like BeautifulSoup, Scrapy, and Octoparse has made data extraction accessible and cost-effective.
 
-<i>The code for this project is available at <a href="https://github.com/sahilvora10/Survey-for-Web-Scrapers">sahilvora10/Survey-for-Web-Scrapers</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2021@gmail.com">sahilvora2021@gmail.com</a></i>
+<i>The code for this project is available at <a href="https://github.com/sahilvora10/Survey-for-Web-Scrapers">sahilvora10/Survey-for-Web-Scrapers</a>. If you have any questions or inquiries, please feel free to contact me at <a href="mailto:sahilvora2024@gmail.com">sahilvora2024@gmail.com</a></i>
 
 <p><strong>Project Objective</strong></p>
  Evaluate and analyze diverse web scraping tools to streamline data collection from news, social media, and e-commerce websites. The assessment will consider factors like speed, accuracy, usability, and cost-effectiveness, providing valuable insights into choosing the most suitable tool for specific business requirements.

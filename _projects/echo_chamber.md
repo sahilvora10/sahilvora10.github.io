@@ -61,4 +61,4 @@ This project was created to investigate the concept of echo chambers on Twitter,
     Results and Evaluations using important Media and Political Users
 </div>
 
-<i>As this project involves sensitive data and is currently not open-sourced, we are unable to provide direct access to the code. If you have any questions or would like to learn more about the project and its details, please feel free to contact me at <a href="mailto:sahilvora2021@gmail.com">sahilvora2021@gmail.com</a>.</i>
+<i>As this project involves sensitive data and is currently not open-sourced, we are unable to provide direct access to the code. If you have any questions or would like to learn more about the project and its details, please feel free to contact me at <a href="mailto:sahilvora2024@gmail.com">sahilvora2024@gmail.com</a>.</i>
