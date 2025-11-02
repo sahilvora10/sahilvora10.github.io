@@ -63,7 +63,7 @@ layout: default
           {% if site.education.enabled %}
             <h2>Education</h2>
             <div class="education">
-              {% for item in site.extras.education %}
+              {% for item in site.data.education %}
                 <div class="education-item">
                   <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.institution }} logo" class="education-logo rounded-circle">
                   <h3>{{ item.degree }}</h3>
@@ -78,7 +78,7 @@ layout: default
           {% if site.experience.enabled %}
             <h2>Experience</h2>
             <div class="experience">
-              {% for item in site.extras.experience %}
+              {% for item in site.data.experience %}
                 <div class="experience-item">
                   <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.company }} logo" class="experience-logo rounded-circle">
                   <h3>{{ item.role }}</h3>
