@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: About
-nav: true
+nav: false
 nav_order: 1
 cv_pdf: sahil_vora_ml.pdf
 description_1: I'm a Computer Science graduate student with a passion for Computer Vision. I thrive on exploring diverse domains within the ever-evolving realm of Computer Science, believing in the power of learning through hands-on experience. My journey began as a Software Developer, but I've since embraced opportunities in Machine Learning, Computer Vision, and Data Science.
