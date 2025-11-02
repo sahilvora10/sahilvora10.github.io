@@ -65,10 +65,14 @@ layout: default
             <div class="education">
               {% for item in site.data.education %}
                 <div class="education-item">
-                  <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.institution }} logo" class="education-logo rounded-circle">
-                  <h3>{{ item.degree }}</h3>
-                  <p>{{ item.institution }} - {{ item.year }}</p>
-                  <p>{{ item.details }}</p>
+                  <div class="education-logo">
+                    <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.institution }} logo" class="rounded-circle">
+                  </div>
+                  <div class="education-details">
+                    <h3>{{ item.degree }}</h3>
+                    <p>{{ item.institution }}</p>
+                    <p>{{ item.year }}</p>
+                  </div>
                 </div>
               {% endfor %}
             </div>
@@ -80,10 +84,14 @@ layout: default
             <div class="experience">
               {% for item in site.data.experience %}
                 <div class="experience-item">
-                  <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.company }} logo" class="experience-logo rounded-circle">
-                  <h3>{{ item.role }}</h3>
-                  <p>{{ item.company }} - {{ item.year }}</p>
-                  <p>{{ item.details }}</p>
+                  <div class="experience-logo">
+                    <img src="{{ item.logo | prepend: 'assets/img/' }}" alt="{{ item.company }} logo" class="rounded-circle">
+                  </div>
+                  <div class="experience-details">
+                    <h3>{{ item.role }}</h3>
+                    <p>{{ item.company }}</p>
+                    <p>{{ item.year }}</p>
+                  </div>
                 </div>
               {% endfor %}
             </div>
