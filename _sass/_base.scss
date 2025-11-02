@@ -1036,9 +1036,36 @@ nav[data-toggle="toc"] {
 }
 
 .education-logo, .experience-logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.education-item, .experience-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.education-details, .experience-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-details h3, .experience-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.education-details p, .experience-details p {
+  margin: 2px 0;
+  font-size: 1rem;
+  color: #555;
 }
