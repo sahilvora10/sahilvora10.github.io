@@ -1035,37 +1035,38 @@ nav[data-toggle="toc"] {
   }
 }
 
-.education-logo, .experience-logo {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-right: 15px;
-}
+// .education-logo, .experience-logo {
+//   width: 80px;
+//   height: 80px;
+//   object-fit: contain;
+//   border-radius: 50%;
+// }
 
-.education-item, .experience-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
+// .education-item, .experience-item {
+//   display: flex;
+//   align-items: center;
+//   gap: 15px;
+//   padding: 10px;
+//   border: 1px solid #ddd;
+//   border-radius: 8px;
+//   background-color: #f9f9f9;
+// }
 
-.education-details, .experience-details {
-  display: flex;
-  flex-direction: column;
-}
+// .education-details, .experience-details {
+//   display: flex;
+//   flex-direction: column;
+//   flex: 1;
+//   min-width: 200px;
+// }
 
-.education-details h3, .experience-details h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
+// .education-details h3, .experience-details h3 {
+//   margin: 0;
+//   font-size: 1.2rem;
+//   font-weight: bold;
+// }
 
-.education-details p, .experience-details p {
-  margin: 2px 0;
-  font-size: 1rem;
-  color: #555;
-}
+// .education-details p, .experience-details p {
+//   margin: 5px 0;
+//   font-size: 1rem;
+//   color: #555;
+// }
