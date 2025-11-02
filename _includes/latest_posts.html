@@ -1,26 +1,50 @@
 <div class="news">
   {% if site.latest_posts != blank %}
     {%- assign latest_posts = site.posts -%}
+    {%- assign current_year = site.time | date: '%Y' | plus: 0 -%}
     {%- assign latest_posts_grouped = latest_posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
-    
+
     {% for year_group in latest_posts_grouped %}
-      <h2>{{ year_group.name }}</h2>
-      <ul>
-        {% for post in year_group.items %}
-          <li>
-            {% if post.redirect == blank %}
-              <a class="news-title" href="{{ post.url | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
-            {% elsif post.redirect contains '://' %}
-              <a class="news-title" href="{{ post.redirect }}" target="_blank" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
-              <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            {% else %}
-              <a class="news-title" href="{{ post.redirect | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
+      {% assign year = year_group.name | plus: 0 %}
+      {% if year >= current_year - 1 %}
+        <h2>{{ year_group.name }}</h2>
+        <ul>
+          {% for post in year_group.items %}
+            <li>
+              {% if post.redirect == blank %}
+                <a class="news-title" href="{{ post.url | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+              {% elsif post.redirect contains '://' %}
+                <a class="news-title" href="{{ post.redirect }}" target="_blank" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              {% else %}
+                <a class="news-title" href="{{ post.redirect | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <details>
+          <summary>{{ year_group.name }}</summary>
+          <ul>
+            {% for post in year_group.items %}
+              <li>
+                {% if post.redirect == blank %}
+                  <a class="news-title" href="{{ post.url | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                {% elsif post.redirect contains '://' %}
+                  <a class="news-title" href="{{ post.redirect }}" target="_blank" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                  <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                {% else %}
+                  <a class="news-title" href="{{ post.redirect | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
     {% endfor %}
   {%- else -%}
     <p>No posts so far...</p>
