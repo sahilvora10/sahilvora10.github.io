@@ -44,10 +44,16 @@ layout: default
           <!-- CV Download Button -->
           {% if page.cv_pdf %}
             <div class="cv-button">
-              <a href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                 <i class="fas fa-file-pdf"></i> Download CV
               </a>
             </div>
+          {% endif %}
+
+          {% if page.cv_pdf %}
+              <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right">
+                <i class="fas fa-file-pdf"></i> CV
+              </a>
           {% endif %}
 
           <!-- News -->
