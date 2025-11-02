@@ -9,4 +9,3 @@ description_1: I'm a Computer Science graduate student with a passion for Comput
 
 description_2: This page offers a glimpse into my work in these fields, and I'm committed to expanding my technical expertise. Feel free to explore my resume for a more summarised overview.
 ---
-
