@@ -48,6 +48,13 @@ table.table a {
   }
 }
 
+/* CV button hover with theme color */
+.cv-link:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
 .table-dark {
   background-color: transparent;
 }
