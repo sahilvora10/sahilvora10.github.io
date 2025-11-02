@@ -6,7 +6,7 @@ subtitle: Software Developer @ AWS | MSc CS ASU | Computer Vision Research Assis
 
 profile:
   align: right
-  image: sahil_vora_prof_pic.jpg
+  image: sv_2025.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
