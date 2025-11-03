@@ -6,7 +6,7 @@
 
     {% for year_group in latest_posts_grouped %}
       {% assign year = year_group.name | plus: 0 %}
-      {% if year == current_year or year == current_year - 1 %}
+      {% if year == current_year or year == current_year | minus: 1 %}
         <h2>{{ year_group.name }}</h2>
         <ul>
           {% for post in year_group.items %}
@@ -25,10 +25,10 @@
     {% endfor %}
 
     <details>
-      <summary>More Updates</summary>
+      <summary>Previous Updates</summary>
       {% for year_group in latest_posts_grouped %}
         {% assign year = year_group.name | plus: 0 %}
-        {% if year < current_year - 1 %}
+        {% if year < current_year | minus: 1 %}
           <h3>{{ year_group.name }}</h3>
           <ul>
             {% for post in year_group.items %}
