@@ -14,7 +14,7 @@ news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-cv_pdf: sahil_vora_ml.pdf
+cv_pdf: sahil_vora_cv.pdf
 ---
 
 Hello! I am a Software Developer at Amazon Web Services (AWS) and a researcher focused on Computer Vision, Machine Learning, and Generative AI, with applications in medical imaging and healthcare.  

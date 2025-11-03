@@ -4,7 +4,7 @@ title: Contact
 nav: true
 nav_order: 6
 dropdown: true
-cv_pdf: sahil_vora_ml.pdf
+cv_pdf: sahil_vora_cv.pdf
 children: 
     - title: Email
       permalink: mailto:sahilvora2024@gmail.com
