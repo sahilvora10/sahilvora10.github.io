@@ -90,6 +90,22 @@ computer vision and the field of optics},
   volume={8},
   number={5},
   pages={1092-1111},
+  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11080205},
+  abstract={Magnetic Resonance Imaging (MRI) serves as a crucial diagnostic tool in medical practice, yet its
+lengthy acquisition times pose challenges for patient comfort and clinical efficiency. Current deep learning
+approaches for accelerating MRI acquisition face difficulties in managing data variability caused by different
+scanner vendors or imaging protocols. This research investigates the use of transfer learning in variational
+deep learning models to enhance generalization capabilities. We collect 135 ACR phantom samples from 3.0T
+GE and SIEMENS MRI scanners, following standard ACR guidelines, to study vendor-specific generalization.
+Additionally, the fastMRI brain dataset, a recognized benchmark for MRI acceleration, is utilized to evaluate
+performance across diverse acquisition sequences. Through comprehensive testing, we identify vendor and
+sequence inconsistencies as key hurdles for accelerated MRI generalization. To overcome these challenges,
+we introduce a feature refinement-based transfer learning method, achieving significant gains over baseline
+models in both vendor and sequence generalization tasks. Moreover, we incorporate experience replay to
+mitigate catastrophic forgetting, resulting in notable performance stability. For vendor generalization, our
+approach reduces Peak Signal Noise-to-Ratio (PSNR) and Structural SIMilarity (SSIM) degradation by 25.55%
+and 9.5%, respectively. Similarly, for sequence transfer, forgetting is reduced by 3.5% (PSNR) and 2% (SSIM),
+establishing a robust framework with substantial improvements.},
   keywords={Training;Deep learning;Protocols;Magnetic resonance imaging;Transfer learning;Phantoms;Brain modeling;Stability analysis;Image reconstruction;Standards;accelerated Magnetic Resonance Imaging (MRI) reconstruction;generalization;transfer learning},
   doi={10.26599/BDMA.2025.9020013}}
 
@@ -102,6 +118,8 @@ computer vision and the field of optics},
   volume={},
   number={},
   pages={1-5},
+  html={https://ieeexplore.ieee.org/abstract/document/10981026},
+  abstract={Image denoising is a persistent challenge, often relying on paired datasets or known noise distributions. While deep neural networks are effective, they are impractical for medical applications like Magnetic Resonance Imaging (MRI) due to their dependency on paired datasets and struggle with unknown noise distributions. Recent advances in self-supervised techniques and diffusion models allow denoising from a single noisy image, but current methods struggle with over-smoothing and hallucination, limiting clinical applicability. To address these issues, we propose a Multi-stage Ensemble Deep Learning framework that capitalizes on the power of diffusion models and operates independently of signal or noise priors. By rescaling multi-stage reconstructions, it balances smoothing and hallucination. Evaluations show a 1dB and 2.5% improvement in PSNR and SSIM over the best existing methods, with promising results for real clinical MRI scans.},
   keywords={Training;Deep learning;Smoothing methods;Magnetic resonance imaging;Noise;Noise reduction;Medical services;Diffusion models;Noise measurement;Image denoising;Image Denoising;Diffussion Models;MRI},
   doi={10.1109/ISBI60581.2025.10981026}}
 
@@ -124,7 +142,8 @@ publisher="Springer Nature Switzerland",
 address="Cham",
 pages="97--113",
 abstract="Learning new categories with limited training samples presents a significant challenge for conventional deep learning frameworks. The few-shot learning (FSL) paradigm emerges as a potential solution to address practical constraints in this challenge. The primary difficulties in FSL are insufficient prior knowledge and ineffective alignment of clusters to their corresponding classification vectors in the pretrained feature space. While many FSL methods employ task-agnostic instances and class-specific embedding functions, we argue that incorporating task-specific knowledge is crucial for overcoming FSL challenges. To achieve adaptability in FSL, we propose an Adaptive Few-Shot Learning (A-FSL) framework which (1) aggregates task-specific knowledge and adapts the classification vectors in the pretrained feature space and (2) develops a query class correlation attention module to enhance cluster formation. By considering task-specific information at multiple scales of visual features, we can overcome the limitations of a fixed feature space and refine it to adapt classification and query vectors effectively. The A-FSL framework leads to well-formed clusters for novel classes where classification vectors are drawn toward the clusters, even in the 1-shot setting. Through comprehensive experimental evaluation, we show that our method outperforms the current state-of-the-art on benchmark datasets.",
-isbn="978-3-031-78395-1"
+isbn="978-3-031-78395-1",
+html={https://link.springer.com/chapter/10.1007/978-3-031-78395-1_7}
 }
 
 
