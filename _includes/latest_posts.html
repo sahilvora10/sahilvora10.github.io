@@ -1,12 +1,15 @@
 <div class="news">
-  {% if site.latest_posts != blank %}
-    {%- assign latest_posts = site.posts -%}
-    {%- assign current_year = site.time | date: '%Y' | plus: 0 -%}
-    {%- assign latest_posts_grouped = latest_posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
+  {% if site.posts != blank %}
+    {% assign latest_posts = site.posts %}
+    {% assign current_year = site.time | date: "%Y" | plus: 0 %}
+    {% assign last_year = current_year | minus: 1 %}
+    {% assign latest_posts_grouped = latest_posts | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
+
+    {% assign previous_updates_exist = false %}
 
     {% for year_group in latest_posts_grouped %}
       {% assign year = year_group.name | plus: 0 %}
-      {% if year == current_year or year == current_year | minus: 1 %}
+      {% if year == current_year or year == last_year %}
         <h2>{{ year_group.name }}</h2>
         <ul>
           {% for post in year_group.items %}
@@ -28,7 +31,8 @@
       <summary>Previous Updates</summary>
       {% for year_group in latest_posts_grouped %}
         {% assign year = year_group.name | plus: 0 %}
-        {% if year < current_year | minus: 1 %}
+        {% if year < last_year %}
+          {% assign previous_updates_exist = true %}
           <h3>{{ year_group.name }}</h3>
           <ul>
             {% for post in year_group.items %}
@@ -45,8 +49,11 @@
           </ul>
         {% endif %}
       {% endfor %}
+      {% if previous_updates_exist == false %}
+        <p>No previous updates available.</p>
+      {% endif %}
     </details>
-  {%- else -%}
+  {% else %}
     <p>No posts so far...</p>
-  {%- endif %}
+  {% endif %}
 </div>
