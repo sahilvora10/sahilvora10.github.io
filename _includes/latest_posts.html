@@ -4,6 +4,7 @@
     {%- assign current_year = site.time | date: '%Y' | plus: 0 -%}
     {%- assign latest_posts_grouped = latest_posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
 
+    {% assign displayed_years = "" %}
     {% for year_group in latest_posts_grouped %}
       {% assign year = year_group.name | plus: 0 %}
       {% if year == current_year or year == current_year - 1 %}
@@ -12,47 +13,42 @@
           {% for post in year_group.items %}
             <li>
               {% if post.redirect == blank %}
-                <a class="news-title" href="{{ post.url | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                <a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
               {% elsif post.redirect contains '://' %}
-                <a class="news-title" href="{{ post.redirect }}" target="_blank" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
-                <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
+                <a class="news-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
               {% else %}
-                <a class="news-title" href="{{ post.redirect | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                <a class="news-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
               {% endif %}
             </li>
           {% endfor %}
         </ul>
-      {% else %}
-        {% if forloop.first %}
-          <details>
-            <summary>More Updates</summary>
-            <ul>
-        {% endif %}
+        {% assign displayed_years = displayed_years | append: year | append: "," %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign displayed_years_array = displayed_years | split: "," %}
+    <details>
+      <summary>More Updates</summary>
+      {% for year_group in latest_posts_grouped %}
+        {% assign year = year_group.name | plus: 0 %}
+        {% unless displayed_years_array contains year | stringify %}
           <h3>{{ year_group.name }}</h3>
           <ul>
             {% for post in year_group.items %}
               <li>
                 {% if post.redirect == blank %}
-                  <a class="news-title" href="{{ post.url | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                  <a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 {% elsif post.redirect contains '://' %}
-                  <a class="news-title" href="{{ post.redirect }}" target="_blank" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
-                  <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
+                  <a class="news-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
                 {% else %}
-                  <a class="news-title" href="{{ post.redirect | relative_url }}" onclick="return false;" style="text-decoration: none; cursor: default;">{{ post.title }}</a>
+                  <a class="news-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
                 {% endif %}
               </li>
             {% endfor %}
           </ul>
-        {% if forloop.last %}
-            </ul>
-          </details>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+        {% endunless %}
+      {% endfor %}
+    </details>
   {%- else -%}
     <p>No posts so far...</p>
   {%- endif %}
