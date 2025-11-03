@@ -4,7 +4,6 @@
     {%- assign current_year = site.time | date: '%Y' | plus: 0 -%}
     {%- assign latest_posts_grouped = latest_posts | group_by_exp:"post", "post.date | date: '%Y'" -%}
 
-    {% assign displayed_years = "" %}
     {% for year_group in latest_posts_grouped %}
       {% assign year = year_group.name | plus: 0 %}
       {% if year == current_year or year == current_year - 1 %}
@@ -22,16 +21,14 @@
             </li>
           {% endfor %}
         </ul>
-        {% assign displayed_years = displayed_years | append: year | append: "," %}
       {% endif %}
     {% endfor %}
 
-    {% assign displayed_years_array = displayed_years | split: "," %}
     <details>
       <summary>More Updates</summary>
       {% for year_group in latest_posts_grouped %}
         {% assign year = year_group.name | plus: 0 %}
-        {% unless displayed_years_array contains year | stringify %}
+        {% if year < current_year - 1 %}
           <h3>{{ year_group.name }}</h3>
           <ul>
             {% for post in year_group.items %}
@@ -46,7 +43,7 @@
               </li>
             {% endfor %}
           </ul>
-        {% endunless %}
+        {% endif %}
       {% endfor %}
     </details>
   {%- else -%}
